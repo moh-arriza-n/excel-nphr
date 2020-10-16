@@ -172,7 +172,7 @@
                                             <label for="total">Asusmsi Merit (Rp / KWh):</label>
                                         </td>
                                         <td class="text-right">
-                                            <input class="input-sm text-right" data-cell="P2"  data-format="0.0000" data-formula="SLOPE(J1:J4,L1:L4)">
+                                            <input class="input-sm text-right" data-cell="P2"  data-format="0.0000" data-formula="SLOPE(J1:J4;L1:L4)">
                                         </td>
                                         <td>&nbsp;</td>
                                     </tr>
@@ -185,7 +185,12 @@
         </div>
 
         <script src="js/jquery-calx-sample-2.2.0.min.js" type="text/javascript"></script>
-        <script src="js/jstat.min.js" type="text/javascript"></script>
+        <script src="js/jstat.min.js"></script>
+        <script src="js/jquery.flot.min.js"></script>
+        <script src="js/jquery.flot.pie.js"></script>
+        <script src="js/jquery.flot.categries.js"></script>
+        <script src="js/numeral.min.js"></script>
+        <script src="js/moment.min.js"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <script>
             $form       = $('#dynamic').calx();
